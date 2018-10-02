@@ -34,8 +34,7 @@ public class MathUtils {
 
         /* If it's a negative exponent, we should invert it! */
         if (isNegative) {
-            double dividedRes = divideNumbers(1, res);
-            return dividedRes;
+            return divideNumbers(1, res);
         }
         /* Otherwise, we are safe to just return the result */
         else {
